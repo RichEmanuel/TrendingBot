@@ -1,0 +1,420 @@
+2025-11-04 20:51:27,816 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2025-11-04 20:51:27,819 [INFO] logging in using static token
+2025-11-04 20:51:32,012 [ERROR] Bot failed to start: Improper token has been passed.
+Traceback (most recent call last):
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\http.py", line 839, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\http.py", line 773, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 0): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\payem\OneDrive\Desktop\TrendingBot\bot.py", line 206, in <module>
+    bot.run(TOKEN)
+    ~~~~~~~^^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\client.py", line 929, in run
+    asyncio.run(runner())
+    ~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\runners.py", line 204, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\runners.py", line 127, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\client.py", line 918, in runner
+    await self.start(token, reconnect=reconnect)
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\client.py", line 846, in start
+    await self.login(token)
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\client.py", line 675, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\http.py", line 843, in static_login
+    raise LoginFailure('Improper token has been passed.') from exc
+discord.errors.LoginFailure: Improper token has been passed.
+2025-11-04 21:01:42,715 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2025-11-04 21:01:42,718 [INFO] logging in using static token
+2025-11-04 21:01:42,961 [ERROR] Bot failed to start: Improper token has been passed.
+Traceback (most recent call last):
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\http.py", line 839, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\http.py", line 773, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 0): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\payem\OneDrive\Desktop\TrendingBot\bot.py", line 197, in <module>
+    bot.run(TOKEN)
+    ~~~~~~~^^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\client.py", line 929, in run
+    asyncio.run(runner())
+    ~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\runners.py", line 204, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\runners.py", line 127, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\client.py", line 918, in runner
+    await self.start(token, reconnect=reconnect)
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\client.py", line 846, in start
+    await self.login(token)
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\client.py", line 675, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\http.py", line 843, in static_login
+    raise LoginFailure('Improper token has been passed.') from exc
+discord.errors.LoginFailure: Improper token has been passed.
+2025-11-04 21:02:16,833 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2025-11-04 21:02:16,836 [INFO] logging in using static token
+2025-11-04 21:02:17,080 [ERROR] Bot failed to start: Improper token has been passed.
+Traceback (most recent call last):
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\http.py", line 839, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\http.py", line 773, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 0): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\payem\OneDrive\Desktop\TrendingBot\bot.py", line 197, in <module>
+    bot.run(TOKEN)
+    ~~~~~~~^^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\client.py", line 929, in run
+    asyncio.run(runner())
+    ~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\runners.py", line 204, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\runners.py", line 127, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\client.py", line 918, in runner
+    await self.start(token, reconnect=reconnect)
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\client.py", line 846, in start
+    await self.login(token)
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\client.py", line 675, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\http.py", line 843, in static_login
+    raise LoginFailure('Improper token has been passed.') from exc
+discord.errors.LoginFailure: Improper token has been passed.
+2025-11-04 21:05:32,527 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2025-11-04 21:05:32,532 [INFO] logging in using static token
+2025-11-04 21:05:32,786 [ERROR] Bot failed to start: Improper token has been passed.
+Traceback (most recent call last):
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\http.py", line 839, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\http.py", line 773, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 0): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\payem\OneDrive\Desktop\TrendingBot\bot.py", line 197, in <module>
+    bot.run(TOKEN)
+    ~~~~~~~^^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\client.py", line 929, in run
+    asyncio.run(runner())
+    ~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\runners.py", line 204, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\runners.py", line 127, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\client.py", line 918, in runner
+    await self.start(token, reconnect=reconnect)
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\client.py", line 846, in start
+    await self.login(token)
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\client.py", line 675, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\http.py", line 843, in static_login
+    raise LoginFailure('Improper token has been passed.') from exc
+discord.errors.LoginFailure: Improper token has been passed.
+2025-11-04 21:06:37,086 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2025-11-04 21:06:37,088 [INFO] logging in using static token
+2025-11-04 21:06:37,324 [ERROR] Bot failed to start: Improper token has been passed.
+Traceback (most recent call last):
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\http.py", line 839, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\http.py", line 773, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 0): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\payem\OneDrive\Desktop\TrendingBot\bot.py", line 197, in <module>
+    bot.run(TOKEN)
+    ~~~~~~~^^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\client.py", line 929, in run
+    asyncio.run(runner())
+    ~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\runners.py", line 204, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\runners.py", line 127, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\client.py", line 918, in runner
+    await self.start(token, reconnect=reconnect)
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\client.py", line 846, in start
+    await self.login(token)
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\client.py", line 675, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\http.py", line 843, in static_login
+    raise LoginFailure('Improper token has been passed.') from exc
+discord.errors.LoginFailure: Improper token has been passed.
+2025-11-04 21:07:07,968 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2025-11-04 21:07:07,970 [INFO] logging in using static token
+2025-11-04 21:07:09,078 [INFO] Shard ID None has connected to Gateway (Session ID: c054e85c4a406499f43acce3f77a7d03).
+2025-11-04 21:07:11,127 [INFO] Bot started as TikTok Trend Finder#3344
+2025-11-04 21:07:11,372 [INFO] Auto\u2011update sent to general (2\u202fitems).
+2025-11-04 21:07:21,900 [ERROR] Ignoring exception in command graph
+Traceback (most recent call last):
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\ext\commands\bot.py", line 1376, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\ext\commands\core.py", line 1056, in invoke
+    await self.prepare(ctx)
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\ext\commands\core.py", line 973, in prepare
+    await self._parse_arguments(ctx)
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\ext\commands\core.py", line 888, in _parse_arguments
+    kwargs[name] = await self.transform(ctx, param, attachments)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\ext\commands\core.py", line 732, in transform
+    raise MissingRequiredArgument(param)
+discord.ext.commands.errors.MissingRequiredArgument: item is a required argument that is missing.
+2025-11-04 21:07:53,727 [INFO] Sent chart for Mini Blender
+2025-11-04 21:09:32,574 [INFO] Shard ID None has successfully RESUMED session c054e85c4a406499f43acce3f77a7d03.
+2025-11-04 21:09:39,873 [ERROR] Ignoring exception in command graph
+Traceback (most recent call last):
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\ext\commands\bot.py", line 1376, in invoke
+    await ctx.command.invoke(ctx)
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\ext\commands\core.py", line 1056, in invoke
+    await self.prepare(ctx)
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\ext\commands\core.py", line 973, in prepare
+    await self._parse_arguments(ctx)
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\ext\commands\core.py", line 888, in _parse_arguments
+    kwargs[name] = await self.transform(ctx, param, attachments)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\ext\commands\core.py", line 732, in transform
+    raise MissingRequiredArgument(param)
+discord.ext.commands.errors.MissingRequiredArgument: item is a required argument that is missing.
+2025-11-04 21:10:08,313 [INFO] Sent chart for Mini Blender
+2025-11-04 21:13:09,599 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2025-11-04 21:13:09,601 [INFO] logging in using static token
+2025-11-04 21:13:09,846 [ERROR] Bot failed to start: Improper token has been passed.
+Traceback (most recent call last):
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\http.py", line 839, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\http.py", line 773, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 0): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\payem\OneDrive\Desktop\TrendingBot\bot.py", line 200, in <module>
+    bot.run(TOKEN)
+    ~~~~~~~^^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\client.py", line 929, in run
+    asyncio.run(runner())
+    ~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\runners.py", line 204, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\runners.py", line 127, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\client.py", line 918, in runner
+    await self.start(token, reconnect=reconnect)
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\client.py", line 846, in start
+    await self.login(token)
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\client.py", line 675, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\http.py", line 843, in static_login
+    raise LoginFailure('Improper token has been passed.') from exc
+discord.errors.LoginFailure: Improper token has been passed.
+2025-11-04 21:14:26,290 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2025-11-04 21:14:26,293 [INFO] logging in using static token
+2025-11-04 21:14:27,353 [INFO] Shard ID None has connected to Gateway (Session ID: 455bd425e8ecbcddc66768d820f0e745).
+2025-11-04 21:14:29,361 [INFO] Bot started as TikTok Trend Finder#3344
+2025-11-04 21:14:29,793 [INFO] Auto\u2011update sent to general (2\u202fitems).
+2025-11-04 21:20:15,946 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2025-11-04 21:20:15,951 [INFO] logging in using static token
+2025-11-04 21:20:16,242 [ERROR] Bot failed to start: Improper token has been passed.
+Traceback (most recent call last):
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\http.py", line 839, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\http.py", line 773, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 0): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\payem\OneDrive\Desktop\TrendingBot\bot.py", line 202, in <module>
+    bot.run(TOKEN)
+    ~~~~~~~^^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\client.py", line 929, in run
+    asyncio.run(runner())
+    ~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\runners.py", line 204, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\runners.py", line 127, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\client.py", line 918, in runner
+    await self.start(token, reconnect=reconnect)
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\client.py", line 846, in start
+    await self.login(token)
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\client.py", line 675, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\http.py", line 843, in static_login
+    raise LoginFailure('Improper token has been passed.') from exc
+discord.errors.LoginFailure: Improper token has been passed.
+2025-11-04 21:26:42,433 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2025-11-04 21:26:42,435 [INFO] logging in using static token
+2025-11-04 21:26:42,693 [ERROR] Bot failed to start: Improper token has been passed.
+Traceback (most recent call last):
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\http.py", line 839, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\http.py", line 773, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 0): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\payem\OneDrive\Desktop\TrendingBot\bot.py", line 211, in <module>
+    bot.run(TOKEN)
+    ~~~~~~~^^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\client.py", line 929, in run
+    asyncio.run(runner())
+    ~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\runners.py", line 204, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\runners.py", line 127, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\client.py", line 918, in runner
+    await self.start(token, reconnect=reconnect)
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\client.py", line 846, in start
+    await self.login(token)
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\client.py", line 675, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\http.py", line 843, in static_login
+    raise LoginFailure('Improper token has been passed.') from exc
+discord.errors.LoginFailure: Improper token has been passed.
+2025-11-04 21:27:26,880 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2025-11-04 21:27:26,882 [INFO] logging in using static token
+2025-11-04 21:27:27,744 [INFO] Shard ID None has connected to Gateway (Session ID: e917924ba7338b09f90832b09173aa0f).
+2025-11-04 21:27:29,756 [INFO] Bot started as TikTok Trend Finder#3344
+2025-11-04 21:27:30,167 [INFO] Auto\u2011update sent to general (2\u202fitems).
+2025-11-04 21:30:47,238 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2025-11-04 21:30:47,240 [INFO] logging in using static token
+2025-11-04 21:30:47,448 [ERROR] Bot failed to start: Improper token has been passed.
+Traceback (most recent call last):
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\http.py", line 839, in static_login
+    data = await self.request(Route('GET', '/users/@me'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\http.py", line 773, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 401 Unauthorized (error code: 0): 401: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\payem\OneDrive\Desktop\TrendingBot\bot.py", line 217, in <module>
+    bot.run(TOKEN)
+    ~~~~~~~^^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\client.py", line 929, in run
+    asyncio.run(runner())
+    ~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\runners.py", line 204, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\runners.py", line 127, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\client.py", line 918, in runner
+    await self.start(token, reconnect=reconnect)
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\client.py", line 846, in start
+    await self.login(token)
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\client.py", line 675, in login
+    data = await self.http.static_login(token)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\payem\AppData\Local\Python\pythoncore-3.14-64\Lib\site-packages\discord\http.py", line 843, in static_login
+    raise LoginFailure('Improper token has been passed.') from exc
+discord.errors.LoginFailure: Improper token has been passed.
+2025-11-04 21:31:31,195 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2025-11-04 21:31:31,197 [INFO] logging in using static token
+2025-11-04 21:31:32,083 [INFO] Shard ID None has connected to Gateway (Session ID: 3146449ed2b62c6263bfcf8b084b8db9).
+2025-11-04 21:31:34,117 [INFO] Bot started as TikTok Trend Finder#3344
+2025-11-04 21:31:34,545 [INFO] Auto\u2011update sent to general (2\u202fitems).
+2025-11-04 21:31:48,056 [INFO] Manual !trends report saved (2\u202fitems).
+2025-11-04 21:34:10,077 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2025-11-04 21:34:10,080 [INFO] logging in using static token
+2025-11-04 21:34:12,419 [INFO] Shard ID None has connected to Gateway (Session ID: cf69e56bc16098fd1c9a697729ada313).
+2025-11-04 21:34:14,431 [INFO] Bot started as TikTok Trend Finder#3344
+2025-11-04 21:34:14,701 [INFO] Auto\u2011update sent to general (2\u202fitems).
+2025-11-04 21:39:21,788 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2025-11-04 21:39:21,791 [INFO] logging in using static token
+2025-11-04 21:39:22,880 [INFO] Shard ID None has connected to Gateway (Session ID: e74942f34cc5ef54d70d937ccf6e88e0).
+2025-11-04 21:39:24,901 [INFO] Bot started as TikTok Trend Finder#3344
+2025-11-04 21:39:25,122 [INFO] Auto\u2011update sent to general (2\u202fitems).
+2025-11-04 21:42:22,361 [WARNING] PyNaCl is not installed, voice will NOT be supported
+2025-11-04 21:42:22,364 [INFO] logging in using static token
+2025-11-04 21:42:23,267 [INFO] Shard ID None has connected to Gateway (Session ID: f3d50632a9197d8c4ca1664fed0c10c8).
+2025-11-04 21:42:25,302 [INFO] Bot started as TikTok Trend Finder#3344
+2025-11-04 21:42:25,635 [INFO] Auto\u2011update sent to general (2\u202fitems).
+2025-11-04 21:42:25,882 [INFO] Daily report posted to general
+2025-11-04 21:42:31,839 [INFO] Daily report posted to general
